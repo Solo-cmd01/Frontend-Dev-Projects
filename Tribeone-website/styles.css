@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FAF4DA;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+@font-face{
+    font-family: custom font;
+    src: url(SportingGrotesque-Bold.otf);
+}
+@font-face{
+    font-family: custom font1;
+    src: url(Inter-Regular.ttf);
+}
+@font-face{
+    font-family: custom font2;
+    src: url(Inter-Bold.ttf);
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo{
+    height: 36px;
+    width: 181.06px;
+    margin-left: 70px;
+    margin-top: 64px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -130px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.first-frame{
+    height: 160px;
+    width: 160px;
+    margin-top: 242px;
+    margin-left: -10px;
+}
+.second-frame{
+    height: 160px;
+    width: 160px;
+    margin-top: 241px;
+    margin-right: 0px;
+}
+.first-h1{
+    font-family: custom font;
+    font-size: 79.63px;
+    font-weight: 700;
+    margin-top: 265px;
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 89px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -0.09em;
+    color: #1F1927;
+    height: 178px;
+    width: 813px;
+    font-style: normal;
+    overflow-y: hidden;
+}
+.first-para{
+    text-align: center;
+    margin-top: 41px;
+    font-size: 22.22px;
+    font-family: custom font1;
+    line-height: 27px;
+    font-weight: 400;
+    color: #1F1927;
+}
+.button-shape{
+    margin-top: 50px;
+    margin-left: 590px;
+    height: 67px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FC5205;
+}
+.button{
+    width: 82px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.22px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    border-style: none;
+    background-color: inherit;
+    font-family: custom font2;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.first-about{
+    margin-top: 100px;
+    margin-left: 550px;
+    font-family: custom font;
+    font-size: 46.08px;
+    font-weight: 700;
+    text-align: center;
+    height: 130px;
+    width: 268px;
+    letter-spacing: -0.055em;
+    color: #1F1927;
+}
+.second-para{
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 21%;
+    margin-bottom: 50px;
+    width: 778;
+    height: 98;
+    left: 50%;
+    font-family: custom font1;
+    font-weight: 400;
+    font-size: 22.22px;
+    font-style: normal;
+    line-height: 27px;
+    color: #1F1927;
+} 
+/* This is the first rectangle-------------------------------------------- */
+.image-container{
+    background-image: none;
+    background-color: #FAF4DA;
+    border: 0.5px solid black;
+    width: 807px;
+    height: 256px;
+    margin-left: 273.5px;
+    margin-bottom: 16px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin-top: -80;
+    margin-left: 70%;
+    background-color: #FAF4DA;
+}
+.branding-text{
+    font-family: custom font;
+    width: 209;
+    height: 66;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 53px;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #1F1927;
+    display: flex;
+    padding-top: 48px;
+    padding-left: 80px;
+    background-color: #FAF4DA;
+}
+.div-para{
+    font-size: 0.7em;
+    width: 442;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.22px;
+    line-height: 27px;
+    color: #1F1927;
+    margin-top: -118px;
+    margin-left: 75px;
+    background-color: #FAF4DA;
+    font-family: custom font1;
+}
+/* This is the second rectangle------------------------------------------ */
+.image-container1{
+    background-image: none;
+    background-color: #06B0FD;
+    border: 0.5px solid black;
+    width: 807px;
+    height: 256px;
+    margin-left: 273.5px;
+    margin-bottom: 16px;
+}
+.image1{
+    width: 200px;
+    height: 200px;
+    margin-top: -80;
+    margin-left: 70%;
+    background-color: #06B0FD;
+}
+.branding-text1{
+    width: 356px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #1F1927;
+    font-family: custom font;
+    padding-top: 48px;
+    padding-left: 80px;
+    background-color:  #06B0FD;
+}
+.div-para1{
+    width: 442px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.22px;
+    line-height: 27px;
+    color: #1F1927;
+    margin-top: -118px;
+    margin-left: 75px;
+    background-color:  #06B0FD;
+    font-family: custom font1;
+}
+/* This is the third rectangle---------------------------------- */
+.image-container2{
+    background-color: #FAF4DA;
+    border: 0.5px solid black;
+    width: 807px;
+    height: 256px;
+    margin-left: 273.5px;
+    margin-bottom: 16px;
+}
+.image2{
+    width: 200px;
+    height: 200px;
+    margin-top: -80;
+    margin-left: 70%;
+    background-color: #FAF4DA;
+}
+.branding-text2{
+    width: 425px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #1F1927;
+    font-family: custom font;
+    padding-top: 48px;
+    padding-left: 80px;
+    background-color: #FAF4DA;
+}
+.div-para2{
+    width: 442px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.22px;
+    line-height: 27px;
+    color: #1F1927;
+    margin-top: -118px;
+    margin-left: 75px;
+    background-color: #FAF4DA;
+    font-family: custom font1;
+}
+/* This is the fourth rectangle---------------------------------------------- */
+.image-container3{
+    background-color: #FC5205;
+    border: 0.5px solid black;
+    width: 807px;
+    height: 256px;
+    margin-left: 273.5px;
+    margin-bottom: 137px;
+}
+.image3{
+    width: 200px;
+    height: 200px;
+    margin-top: -80;
+    margin-left: 70%;
+    background-color: #FC5205;
+}
+.branding-text3{
+    width: 425px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #1F1927;
+    font-family: custom font;
+    padding-top: 48px;
+    padding-left: 80px;
+    background-color: #FC5205;
+}
+.div-para3{
+    width: 442px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.22px;
+    line-height: 27px;
+    color: #1F1927;
+    margin-top: -118px;
+    margin-left: 75px;
+    background-color: #FC5205;
+    font-family: custom font1;
+}
+/* -------------------------------------------------- */
+.work{
+    text-align: center;
+    font-family: custom font;
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-bottom: 80px;
+    color: #FC5205;
+    width: 543px;
+    height: 53px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.5px;
+    line-height: 53px;
+    letter-spacing: -0.055em;
+}
+.work1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.work2{
+    width: 420px;
+    height: 420px;
+    background-color: #C4C4C4;
+    margin-bottom: 112px;
+}
+.anchor{
+    color: #FC5205;
+    font-family: custom font;
+    margin-left: 43%;
+    width: 225px;
+    height: 53px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.055em;
+}
+.joint-logo{
+    width: 209px;
+    height: 112px;
+}
+.joint-logo1{
+    width: 161px;
+    height: 80px;
+    margin-left: 140px;
+    margin-right: 110px;
+}
+.joint-logo2{
+    width: 264px;
+    height: 63px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 63px;
+    margin-left: 160px;
+    margin-right: 140px;
+    margin-bottom: 96px;
+}
+.get-text{
+    font-family: custom font;
+    color: #FC5205;
+    width: 578px;
+    height: 89px;
+    padding-top: 50px;
+    margin-left: 380px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 79.63px;
+    line-height: 89px;
+    letter-spacing: -0.09em;
+    text-decoration: none;
+    background-color: inherit;
+
+}
+.get-p{
+    width: 770px;
+    height: 63px;
+    margin-left: 295px;
+    margin-top: -31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.22px;
+    line-height: 27px;
+    text-align: center;
+    color: #1F1927;
+    text-decoration: none;
+    background-color: inherit;
+    font-family: custom font1   ;
+}
+.get-div{
+    width: 1440px;
+    height: 416px;
+    background-color: #FDDA66;
+    margin-bottom: 64px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ .div1 img{ 
+    width: 139px;
+    height: 27.64px;
+    margin-left: 70px;
+} 
+.origin-socials{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    color: #1F1927;
+    gap: 45px;
+    align-items: center;
+    margin-right: 70px;
+
+}
